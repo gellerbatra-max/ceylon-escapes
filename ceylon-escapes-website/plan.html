@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plan My Sri Lanka Trip — Free Itinerary in 48 Hours | Ceylon Escapes</title>
+<meta name="description" content="Tell us your dates, travel style and budget — get a free day-by-day Sri Lanka itinerary with real AUD prices within 48 hours. No obligation, no booking fees.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌴</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500..700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=2">
+</head>
+<body>
+
+<div class="announce">
+  ✈ <strong>New:</strong> Jetstar flies Melbourne → Colombo direct from 25 Aug 2026
+  (<span class="count" data-countdown></span>) · launch fares from A$315 one-way ·
+  <a href="flights.html">see flight details</a>
+</div>
+
+<header class="navbar">
+  <div class="container navbar-inner">
+    <a class="logo" href="index.html" aria-label="Ceylon Escapes home">
+      <svg viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <circle cx="26" cy="13" r="8" fill="#eda437"/>
+        <path d="M2 28c5-5 11-5 16 0s11 5 16 0" stroke="#0c5743" stroke-width="3.4" stroke-linecap="round"/>
+        <path d="M2 35c5-5 11-5 16 0s11 5 16 0" stroke="#0c5743" stroke-width="3.4" stroke-linecap="round" opacity=".45"/>
+      </svg>
+      <span>Ceylon Escapes<small>Sri Lanka · for Australians</small></span>
+    </a>
+    <nav aria-label="Main">
+      <ul class="nav-links">
+        <li><a href="tours.html">Tours</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="flights.html">Getting here</a></li>
+        <li><a href="about.html">About us</a></li>
+      </ul>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn btn-primary btn-sm" href="plan.html">Plan my trip</a>
+      <button class="nav-toggle" aria-expanded="false" aria-label="Menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero page-hero" style="min-height:38vh">
+  <div class="hero-bg" style="background-image:url('https://images.unsplash.com/photo-1544015759-237f87d55ef3?q=80&w=2000&auto=format&fit=crop')"></div>
+  <div class="container">
+    <div class="hero-inner" style="padding:56px 0 48px">
+      <span class="kicker">2 MINUTES · FREE · NO OBLIGATION</span>
+      <h1>Let's plan your <em>escape.</em></h1>
+      <p class="lead">Answer a few quick questions. Within 48 hours you'll have a day-by-day itinerary with real hotels and real AUD prices — yours to keep, tweak or ignore.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section tight">
+  <div class="container-narrow">
+
+    <div class="wizard reveal">
+      <div class="wizard-progress" aria-hidden="true">
+        <span></span><span></span><span></span><span></span>
+      </div>
+
+      <!-- NOTE: This form currently shows a thank-you screen but does not send
+           anywhere. Before launch, connect it to a form service (Formspree,
+           Getform, Tally…) or your own email — see js/main.js "data-submit". -->
+      <div class="wizard-form">
+
+        <!-- STEP 1: When & how long -->
+        <div class="wizard-step active">
+          <h2>When are you thinking?</h2>
+          <p>Rough is fine — "sometime next winter" is a perfectly good answer.</p>
+          <div class="field-grid">
+            <div class="field">
+              <label for="w-when">Travel dates (or rough month)</label>
+              <input id="w-when" type="text" placeholder="e.g. first two weeks of September">
+            </div>
+            <div class="field">
+              <label for="w-length">How long?</label>
+              <select id="w-length">
+                <option>7–9 days</option>
+                <option selected>10–14 days</option>
+                <option>2–3 weeks</option>
+                <option>Longer — living the dream</option>
+                <option>Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label>How locked-in are your dates?</label>
+            <div class="option-chips">
+              <label><input type="radio" name="flex" checked><span class="chip-face">Flexible</span></label>
+              <label><input type="radio" name="flex"><span class="chip-face">Roughly set</span></label>
+              <label><input type="radio" name="flex"><span class="chip-face">Booked my Jetstar flights!</span></label>
+            </div>
+          </div>
+          <div class="wizard-nav">
+            <span></span>
+            <button class="btn btn-primary" data-next>Next →</button>
+          </div>
+        </div>
+
+        <!-- STEP 2: Who & budget -->
+        <div class="wizard-step">
+          <h2>Who's coming?</h2>
+          <p>So we pitch the pace, rooms and activities right.</p>
+          <div class="field-grid">
+            <div class="field">
+              <label for="w-adults">Adults</label>
+              <select id="w-adults"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5+</option></select>
+            </div>
+            <div class="field">
+              <label for="w-kids">Kids (and ages, if any)</label>
+              <input id="w-kids" type="text" placeholder="e.g. two — 7 and 10">
+            </div>
+          </div>
+          <div class="field">
+            <label>Trip style</label>
+            <div class="option-chips">
+              <label><input type="radio" name="style"><span class="chip-face">Comfy on a budget</span></label>
+              <label><input type="radio" name="style" checked><span class="chip-face">Mid-range boutique</span></label>
+              <label><input type="radio" name="style"><span class="chip-face">Spoil us a bit</span></label>
+              <label><input type="radio" name="style"><span class="chip-face">Full luxury</span></label>
+            </div>
+          </div>
+          <div class="field">
+            <label for="w-budget">Rough land budget per person (excluding flights)</label>
+            <select id="w-budget">
+              <option>Under A$1,500</option>
+              <option selected>A$1,500 – 2,500</option>
+              <option>A$2,500 – 4,000</option>
+              <option>A$4,000+</option>
+              <option>Tell me what's realistic</option>
+            </select>
+          </div>
+          <div class="wizard-nav">
+            <button class="btn btn-ghost" data-back>← Back</button>
+            <button class="btn btn-primary" data-next>Next →</button>
+          </div>
+        </div>
+
+        <!-- STEP 3: Interests -->
+        <div class="wizard-step">
+          <h2>What's your Sri Lanka?</h2>
+          <p>Tick everything that appeals — we'll find the right mix.</p>
+          <div class="field">
+            <div class="option-chips">
+              <label><input type="checkbox" checked><span class="chip-face">🏖 Beaches</span></label>
+              <label><input type="checkbox" checked><span class="chip-face">🐆 Safari &amp; wildlife</span></label>
+              <label><input type="checkbox"><span class="chip-face">🚂 Scenic trains</span></label>
+              <label><input type="checkbox"><span class="chip-face">🏛 Ancient cities</span></label>
+              <label><input type="checkbox"><span class="chip-face">🏄 Surf</span></label>
+              <label><input type="checkbox"><span class="chip-face">🍛 Food experiences</span></label>
+              <label><input type="checkbox"><span class="chip-face">🥾 Hikes &amp; waterfalls</span></label>
+              <label><input type="checkbox"><span class="chip-face">🐋 Whales &amp; snorkelling</span></label>
+              <label><input type="checkbox"><span class="chip-face">🧘 Wellness &amp; ayurveda</span></label>
+              <label><input type="checkbox"><span class="chip-face">🎉 Festivals</span></label>
+            </div>
+          </div>
+          <div class="field">
+            <label for="w-notes">Anything else we should know?</label>
+            <textarea id="w-notes" rows="3" placeholder="Honeymoon? Vegetarian? Hate early starts? Grandma's coming? Tell us everything."></textarea>
+          </div>
+          <div class="wizard-nav">
+            <button class="btn btn-ghost" data-back>← Back</button>
+            <button class="btn btn-primary" data-next>Next →</button>
+          </div>
+        </div>
+
+        <!-- STEP 4: Contact -->
+        <div class="wizard-step">
+          <h2>Where do we send it?</h2>
+          <p>Your itinerary lands within 48 hours. No spam, no pressure, no sharing your details — ever.</p>
+          <div class="field-grid">
+            <div class="field">
+              <label for="w-name">First name *</label>
+              <input id="w-name" type="text" required data-label="name" placeholder="e.g. Sam">
+            </div>
+            <div class="field">
+              <label for="w-email">Email *</label>
+              <input id="w-email" type="email" required data-label="email" placeholder="you@example.com">
+            </div>
+          </div>
+          <div class="field">
+            <label for="w-phone">WhatsApp / mobile (optional, but fastest)</label>
+            <input id="w-phone" type="tel" placeholder="+61 …">
+          </div>
+          <div class="field">
+            <label>Preferred way to chat</label>
+            <div class="option-chips">
+              <label><input type="radio" name="contact" checked><span class="chip-face">Email</span></label>
+              <label><input type="radio" name="contact"><span class="chip-face">WhatsApp</span></label>
+              <label><input type="radio" name="contact"><span class="chip-face">Phone call</span></label>
+            </div>
+          </div>
+          <div class="wizard-nav">
+            <button class="btn btn-ghost" data-back>← Back</button>
+            <button class="btn btn-primary btn-lg" data-submit>Send my request 🎉</button>
+          </div>
+          <p class="wizard-error" role="alert"></p>
+        </div>
+      </div>
+
+      <!-- Success panel -->
+      <div class="wizard-success">
+        <div class="big">🌴</div>
+        <h2>Ayubowan — request received!</h2>
+        <p>That's "may you live long" in Sinhala, and it's how your holiday starts. A real human in Colombo is reading your notes; your day-by-day itinerary will land in your inbox within 48 hours (usually much sooner).</p>
+        <a class="btn btn-whatsapp" href="https://wa.me/94771234567" target="_blank" rel="noopener">Impatient? WhatsApp us now</a>
+      </div>
+    </div>
+
+    <div class="notice" style="margin-top:28px">
+      <strong>Prefer to just talk?</strong> Message us on <a href="https://wa.me/94771234567" target="_blank" rel="noopener">WhatsApp (+94 77 123 4567)</a> or email <a href="mailto:hello@ceylonescapes.com.au">hello@ceylonescapes.com.au</a>. We're 4½ hours behind eastern Australia — your evening is our afternoon.
+    </div>
+
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a class="logo" href="index.html">
+          <svg viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <circle cx="26" cy="13" r="8" fill="#eda437"/>
+            <path d="M2 28c5-5 11-5 16 0s11 5 16 0" stroke="#7fc2a9" stroke-width="3.4" stroke-linecap="round"/>
+            <path d="M2 35c5-5 11-5 16 0s11 5 16 0" stroke="#7fc2a9" stroke-width="3.4" stroke-linecap="round" opacity=".45"/>
+          </svg>
+          <span>Ceylon Escapes</span>
+        </a>
+        <p>Tailor-made private Sri Lanka holidays for Australian travellers — built by a local team in Colombo, priced in AUD, backed 24/7 on the road.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="tours.html">All tours</a></li>
+          <li><a href="destinations.html">Destinations</a></li>
+          <li><a href="flights.html">Flights from Australia</a></li>
+          <li><a href="plan.html">Plan my trip</a></li>
+          <li><a href="about.html">About us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Popular trips</h4>
+        <ul>
+          <li><a href="tour-essential-sri-lanka.html">Essential Sri Lanka · 8 days</a></li>
+          <li><a href="tours.html">Winter Sun East Coast · 8 days</a></li>
+          <li><a href="tours.html">Surf &amp; Safari · 10 days</a></li>
+          <li><a href="tours.html">Family Wild · 9 days</a></li>
+          <li><a href="tours.html">The Grand Loop · 14 days</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Talk to a human</h4>
+        <ul>
+          <li><a href="https://wa.me/94771234567" target="_blank" rel="noopener">WhatsApp: +94 77 123 4567</a></li>
+          <li><a href="mailto:hello@ceylonescapes.com.au">hello@ceylonescapes.com.au</a></li>
+          <li>Colombo, Sri Lanka 🇱🇰</li>
+          <li>We reply within 48 hrs (usually 4)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> Ceylon Escapes · All prices in Australian dollars</span>
+      <span>SLTDA registration no. TBC · Flights sold separately by the airline</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/94771234567" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.2 14.2c-.2.6-1.2 1.1-1.7 1.2-.4.1-1 .1-1.6-.1a13 13 0 0 1-1.5-.5 11.6 11.6 0 0 1-4.4-3.9c-.3-.5-1-1.5-1-2.6 0-1 .5-1.5.7-1.8.2-.2.5-.3.6-.3h.5c.1 0 .3 0 .5.4l.7 1.7c0 .2.1.3 0 .5l-.3.4-.4.4c-.1.1-.2.3-.1.5s.6 1 1.3 1.7a6 6 0 0 0 1.9 1.2c.2.1.4.1.5-.1l.6-.7c.1-.2.3-.3.5-.2l1.6.7c.2.1.4.2.4.3 0 .1 0 .6-.2 1.2Z"/></svg>
+</a>
+
+<script src="js/main.js?v=2"></script>
+</body>
+</html>

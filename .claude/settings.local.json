@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:srilankatourplanner.com)",
+      "WebFetch(domain:drive.google.com)"
+    ]
+  }
+}
